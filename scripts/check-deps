@@ -1,0 +1,19 @@
+#!/bin/bash
+set -eo pipefail
+
+missing=($(
+	jq -r < packages.json '
+		. as $root
+			| [ to_entries[] | .value.dependencies ]
+			| flatten
+			| unique
+			| .[]
+			| select((. as $dep | $root | has($dep)) == false)'
+))
+
+if [[ ${#missing[@]} -gt 0 ]]; then
+	for missing in "${missing[@]}"; do
+	    echo >&2 "missing $missing"
+	done
+	exit 1
+fi

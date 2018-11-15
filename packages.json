@@ -10,5 +10,190 @@
     ],
     "repo": "https://github.com/pure-c/purescript-functions.git",
     "version": "master"
+  },
+  "transformers": {
+    "dependencies": [
+      "control",
+      "distributive",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "lazy",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-transformers.git",
+    "version": "v4.1.0"
+  },
+  "control": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-control.git",
+    "version": "master"
+  },
+  "distributive": {
+    "dependencies": [
+      "identity",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-distributive.git",
+    "version": "v4.0.0"
+  },
+  "identity": {
+    "dependencies": [
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-identity.git",
+    "version": "v4.1.0"
+  },
+  "foldable-traversable": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "maybe",
+      "newtype",
+      "orders",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-foldable-traversable.git",
+    "version": "master"
+  },
+  "bifunctors": {
+    "dependencies": [
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-bifunctors.git",
+    "version": "v4.0.0"
+  },
+  "newtype": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-newtype.git",
+    "version": "v3.0.0"
+  },
+  "effect": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-effect.git",
+    "version": "master"
+  },
+  "either": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-either.git",
+    "version": "v4.1.0"
+  },
+  "invariant": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-invariant.git",
+    "version": "v4.1.0"
+  },
+  "lazy": {
+    "dependencies": [
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-lazy.git",
+    "version": "master"
+  },
+  "maybe": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-maybe.git",
+    "version": "v4.0.0"
+  },
+  "orders": {
+    "dependencies": [
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-orders.git",
+    "version": "v4.0.0"
+  },
+  "tailrec": {
+    "dependencies": [
+      "bifunctors",
+      "effect",
+      "either",
+      "identity",
+      "maybe",
+      "partial",
+      "prelude",
+      "refs"
+    ],
+    "repo": "https://github.com/pure-c/purescript-tailrec.git",
+    "version": "master"
+  },
+  "partial": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-c/purescript-partial.git",
+    "version": "master"
+  },
+  "refs": {
+    "dependencies": [
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-refs.git",
+    "version": "master"
+  },
+  "tuples": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "distributive",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "newtype",
+      "prelude",
+      "type-equality"
+    ],
+    "repo": "https://github.com/purescript/purescript-tuples.git",
+    "version": "v5.1.0"
+  },
+  "unfoldable": {
+    "dependencies": [
+      "foldable-traversable",
+      "maybe",
+      "partial",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/pure-c/purescript-unfoldable.git",
+    "version": "master"
+  },
+  "type-equality": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "version": "v3.0.0"
   }
 }
