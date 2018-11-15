@@ -195,5 +195,10 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v3.0.0"
+  },
+  "unsafe-coerce": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-c/purescript-unsafe-coerce.git",
+    "version": "master"
   }
 }
