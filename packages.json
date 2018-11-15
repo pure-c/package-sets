@@ -149,8 +149,8 @@
       "prelude",
       "refs"
     ],
-    "repo": "https://github.com/pure-c/purescript-tailrec.git",
-    "version": "master"
+    "repo": "https://github.com/purescript/purescript-tailrec.git",
+    "version": "v4.0.0"
   },
   "partial": {
     "dependencies": [],
