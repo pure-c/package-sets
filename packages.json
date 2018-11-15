@@ -1,0 +1,14 @@
+{
+  "prelude": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-c/purescript-prelude.git",
+    "version": "master"
+  },
+  "functions": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-functions.git",
+    "version": "master"
+  }
+}
