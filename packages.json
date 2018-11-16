@@ -55,8 +55,8 @@
       "tuples",
       "unfoldable"
     ],
-    "repo": "https://github.com/purescript/purescript-enums.git",
-    "version": "v4.0.0"
+    "repo": "https://github.com/pure-c/purescript-enums.git",
+    "version": "master"
   },
   "foldable-traversable": {
     "dependencies": [
