@@ -1,4 +1,13 @@
 {
+  "assert": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-assert.git",
+    "version": "master"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype",
@@ -6,6 +15,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v4.0.0"
+  },
+  "console": {
+    "dependencies": [
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-console.git",
+    "version": "master"
   },
   "control": {
     "dependencies": [
