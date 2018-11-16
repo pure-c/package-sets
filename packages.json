@@ -1,34 +1,11 @@
 {
-  "prelude": {
-    "dependencies": [],
-    "repo": "https://github.com/pure-c/purescript-prelude.git",
-    "version": "master"
-  },
-  "functions": {
+  "bifunctors": {
     "dependencies": [
+      "newtype",
       "prelude"
     ],
-    "repo": "https://github.com/pure-c/purescript-functions.git",
-    "version": "master"
-  },
-  "transformers": {
-    "dependencies": [
-      "control",
-      "distributive",
-      "effect",
-      "either",
-      "foldable-traversable",
-      "identity",
-      "lazy",
-      "maybe",
-      "newtype",
-      "prelude",
-      "tailrec",
-      "tuples",
-      "unfoldable"
-    ],
-    "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v4.1.0"
+    "repo": "https://github.com/purescript/purescript-bifunctors.git",
+    "version": "v4.0.0"
   },
   "control": {
     "dependencies": [
@@ -45,44 +22,6 @@
     ],
     "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "v4.0.0"
-  },
-  "identity": {
-    "dependencies": [
-      "control",
-      "foldable-traversable",
-      "invariant",
-      "newtype",
-      "prelude"
-    ],
-    "repo": "https://github.com/purescript/purescript-identity.git",
-    "version": "v4.1.0"
-  },
-  "foldable-traversable": {
-    "dependencies": [
-      "bifunctors",
-      "control",
-      "maybe",
-      "newtype",
-      "orders",
-      "prelude"
-    ],
-    "repo": "https://github.com/pure-c/purescript-foldable-traversable.git",
-    "version": "master"
-  },
-  "bifunctors": {
-    "dependencies": [
-      "newtype",
-      "prelude"
-    ],
-    "repo": "https://github.com/purescript/purescript-bifunctors.git",
-    "version": "v4.0.0"
-  },
-  "newtype": {
-    "dependencies": [
-      "prelude"
-    ],
-    "repo": "https://github.com/purescript/purescript-newtype.git",
-    "version": "v3.0.0"
   },
   "effect": {
     "dependencies": [
@@ -103,6 +42,68 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v4.1.0"
   },
+  "enums": {
+    "dependencies": [
+      "control",
+      "either",
+      "gen",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-enums.git",
+    "version": "v4.0.0"
+  },
+  "foldable-traversable": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "maybe",
+      "newtype",
+      "orders",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-foldable-traversable.git",
+    "version": "master"
+  },
+  "functions": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-functions.git",
+    "version": "master"
+  },
+  "gen": {
+    "dependencies": [
+      "either",
+      "foldable-traversable",
+      "identity",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-gen.git",
+    "version": "v2.1.0"
+  },
+  "identity": {
+    "dependencies": [
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-identity.git",
+    "version": "v4.1.0"
+  },
   "invariant": {
     "dependencies": [
       "prelude"
@@ -120,6 +121,24 @@
     "repo": "https://github.com/pure-c/purescript-lazy.git",
     "version": "master"
   },
+  "lists": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "lazy",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-lists.git",
+    "version": "v5.3.0"
+  },
   "maybe": {
     "dependencies": [
       "control",
@@ -130,6 +149,25 @@
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "v4.0.0"
   },
+  "newtype": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-newtype.git",
+    "version": "v3.0.0"
+  },
+  "nonempty": {
+    "dependencies": [
+      "control",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-nonempty.git",
+    "version": "v5.0.0"
+  },
   "orders": {
     "dependencies": [
       "newtype",
@@ -137,6 +175,51 @@
     ],
     "repo": "https://github.com/purescript/purescript-orders.git",
     "version": "v4.0.0"
+  },
+  "partial": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-c/purescript-partial.git",
+    "version": "master"
+  },
+  "prelude": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-c/purescript-prelude.git",
+    "version": "master"
+  },
+  "proxy": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-proxy.git",
+    "version": "v3.0.0"
+  },
+  "record": {
+    "dependencies": [
+      "functions",
+      "prelude",
+      "st",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-record.git",
+    "version": "v1.0.0"
+  },
+  "refs": {
+    "dependencies": [
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-c/purescript-refs.git",
+    "version": "master"
+  },
+  "st": {
+    "dependencies": [
+      "partial",
+      "prelude",
+      "tailrec"
+    ],
+    "repo": "https://github.com/pure-c/purescript-st.git",
+    "version": "master"
   },
   "tailrec": {
     "dependencies": [
@@ -152,18 +235,24 @@
     "repo": "https://github.com/purescript/purescript-tailrec.git",
     "version": "v4.0.0"
   },
-  "partial": {
-    "dependencies": [],
-    "repo": "https://github.com/pure-c/purescript-partial.git",
-    "version": "master"
-  },
-  "refs": {
+  "transformers": {
     "dependencies": [
+      "control",
+      "distributive",
       "effect",
-      "prelude"
+      "either",
+      "foldable-traversable",
+      "identity",
+      "lazy",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
     ],
-    "repo": "https://github.com/pure-c/purescript-refs.git",
-    "version": "master"
+    "repo": "https://github.com/purescript/purescript-transformers.git",
+    "version": "v4.1.0"
   },
   "tuples": {
     "dependencies": [
@@ -180,6 +269,20 @@
     "repo": "https://github.com/purescript/purescript-tuples.git",
     "version": "v5.1.0"
   },
+  "type-equality": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "version": "v3.0.0"
+  },
+  "typelevel-prelude": {
+    "dependencies": [
+      "prelude",
+      "proxy",
+      "type-equality"
+    ],
+    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
+    "version": "v3.0.0"
+  },
   "unfoldable": {
     "dependencies": [
       "foldable-traversable",
@@ -191,14 +294,24 @@
     "repo": "https://github.com/pure-c/purescript-unfoldable.git",
     "version": "master"
   },
-  "type-equality": {
-    "dependencies": [],
-    "repo": "https://github.com/purescript/purescript-type-equality.git",
-    "version": "v3.0.0"
-  },
   "unsafe-coerce": {
     "dependencies": [],
     "repo": "https://github.com/pure-c/purescript-unsafe-coerce.git",
     "version": "master"
+  },
+  "variant": {
+    "dependencies": [
+      "enums",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "record",
+      "tuples",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-variant.git",
+    "version": "v5.2.0"
   }
 }
