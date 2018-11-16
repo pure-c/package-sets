@@ -210,6 +210,18 @@
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v3.0.0"
   },
+  "purec-uv": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude",
+      "transformers",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo": "https://github.com/pure-c/purec-uv.git",
+    "version": "master"
+  },
   "record": {
     "dependencies": [
       "functions",
