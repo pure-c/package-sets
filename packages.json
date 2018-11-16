@@ -218,8 +218,8 @@
       "typelevel-prelude",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/purescript/purescript-record.git",
-    "version": "v1.0.0"
+    "repo": "https://github.com/pure-c/purescript-record.git",
+    "version": "master"
   },
   "refs": {
     "dependencies": [
