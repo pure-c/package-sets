@@ -210,7 +210,7 @@
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v3.0.0"
   },
-  "purec-uv": {
+  "uv": {
     "dependencies": [
       "console",
       "effect",
