@@ -342,5 +342,21 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v5.2.0"
+  },
+  "aff": {
+    "version": "master",
+    "repo": "https://github.com/pure-c/purescript-aff",
+    "dependencies": [
+        "assert",
+        "bifunctors",
+        "effect",
+        "functions",
+        "partial",
+        "prelude",
+        "tailrec",
+        "transformers",
+        "unsafe-coerce",
+        "uv"
+      ]
   }
 }
