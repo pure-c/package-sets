@@ -1,4 +1,38 @@
 {
+  "aff": {
+    "dependencies": [
+      "assert",
+      "bifunctors",
+      "effect",
+      "functions",
+      "partial",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "unsafe-coerce",
+      "uv"
+    ],
+    "repo": "https://github.com/pure-c/purescript-aff",
+    "version": "master"
+  },
+  "arrays": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "maybe",
+      "nonempty",
+      "partial",
+      "prelude",
+      "st",
+      "tailrec",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/pure-c/purescript-arrays.git",
+    "version": "master"
+  },
   "assert": {
     "dependencies": [
       "console",
@@ -210,18 +244,6 @@
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v3.0.0"
   },
-  "uv": {
-    "dependencies": [
-      "console",
-      "effect",
-      "prelude",
-      "transformers",
-      "unsafe-coerce",
-      "variant"
-    ],
-    "repo": "https://github.com/pure-c/purec-uv.git",
-    "version": "master"
-  },
   "record": {
     "dependencies": [
       "functions",
@@ -328,6 +350,18 @@
     "repo": "https://github.com/pure-c/purescript-unsafe-coerce.git",
     "version": "master"
   },
+  "uv": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude",
+      "transformers",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo": "https://github.com/pure-c/purec-uv.git",
+    "version": "master"
+  },
   "variant": {
     "dependencies": [
       "enums",
@@ -342,21 +376,5 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v5.2.0"
-  },
-  "aff": {
-    "version": "master",
-    "repo": "https://github.com/pure-c/purescript-aff",
-    "dependencies": [
-        "assert",
-        "bifunctors",
-        "effect",
-        "functions",
-        "partial",
-        "prelude",
-        "tailrec",
-        "transformers",
-        "unsafe-coerce",
-        "uv"
-      ]
   }
 }
