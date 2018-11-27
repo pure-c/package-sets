@@ -144,6 +144,17 @@
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "v2.1.0"
   },
+  "generics-rep": {
+    "dependencies": [
+      "enums",
+      "foldable-traversable",
+      "maybe",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-generics-rep.git",
+    "version": "v6.1.0"
+  },
   "identity": {
     "dependencies": [
       "control",
